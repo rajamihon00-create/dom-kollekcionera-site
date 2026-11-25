@@ -20,3 +20,7 @@
   - переписаны короткие meta description + og:description (14 стр.): arendt-v-sadu, bilibin-angel, gaush-bolshaya-voda, kolesnikov-zimniy-oboz, polyansky-kraskom, repin-vitte, samokhvalov-kupalshchitsy, shagal-agar, shagal-akkordeonist, shagal-ruf-i-vooz, tsi-baishi-griby, tsi-baishi-persiki, tsi-baishi-vorobey, tsi-baishi-vyunok;
   - добавлен JSON-LD VisualArtwork (name, creator Person со ссылкой на страницу художника, dateCreated — только где дата = точный год, artMedium, height/width в см — где размер один, image, description, url) и BreadcrumbList (Главная → 52-й Российский Антикварный Салон → работа) на все 27 страниц.
 - SEO остановился на: works/ закончены. Следующий запуск — artists/*.html по алфавиту, начиная с aleksandrova-tb.html (Person + BreadcrumbList; переписать description < 110 знаков), затем about, museum, catalog, visit, salon, главная, events/index (BreadcrumbList).
+
+## 2026-11-25 — правка по просьбе владельца
+- Васнецов Аполлинарий, «Лиственницы»: дата «Без даты» → 1905 (по указанию владельца) — страница работы (дата, description/og, alt, JSON-LD dateCreated), страница художника, salon/, карточки «Другие работы экспозиции» на works/*.html, каталог (date, year 1905, период «1900–1920-е»).
+- Бакст, эскиз костюма: владелец просил исправить название, согласованное в другом чате, но какое именно — не указано (в каталоге 10 эскизов Бакста). Не менял до уточнения. Замечено: лист «Эскиз костюма к балету „Лампа Аладдина“», 1923 — на изображении Пьеро с дамой и подпись «Bakst 1922».
